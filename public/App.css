@@ -11,6 +11,10 @@ bottom {
     float: left; /* Float the buttons side by side */
     text-decoration: none;
     align: right;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
@@ -35,6 +39,10 @@ body {
     float: left; /* Float the buttons side by side */
     text-decoration: none;
     align: center;
+    margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
@@ -59,6 +67,10 @@ head {
     float: left; /* Float the buttons side by side */
     text-decoration: none;
     align: center;
+    margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
   #rotator img {
 -webkit-transition: all 1s ease-in-out;
